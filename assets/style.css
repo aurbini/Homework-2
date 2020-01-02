@@ -58,7 +58,6 @@
     }
     .container {
         max-width: 600px !important; 
-        max-height: 580px;
         margin-left: 50px; 
     }
     .img-container {
@@ -95,8 +94,8 @@
     }
     .container {
         max-width: 600px !important; 
-        max-height: 580px;
         margin-left: 50px; 
+        margin-bottom: 20px !important; 
     }
     .img-container {
         height: 150px;
