@@ -14,44 +14,41 @@
     <title>Contact Page</title>
   </head>
   <body>
-    <div style="padding: 0px !important" id="navbar" class="row navbar sticky-top p-0 bg-dark">
-        <div style="padding-left: 0px !important; padding-right: 0px !important;" class="text-center col-xs-12 col-md-4 ml-0 mb-0" >
-            <h1 id="nav-header" style="background-color: aqua; " 
-                class="">Alex Urbini</h1>
+    <nav id="navbar" class="row navbar sticky-top p-0">
+        <div  class="text-center col-xs-12 col-md-5 ml-0 mb-0" >
+            <h1 id="nav-header" 
+                class="main-header">Alex Urbini</h1>
         </div>
-        <div style="padding-left: 0px !important; padding-right: 0px !important; " class="text-center col-xs-12 col-md-6 mt-0">
-            <ul id="nav-links text-white"
-                class="list-inline mx-auto">
+        <div class="text-center col-xs-12 col-md-5 mt-0 mb-0">
+            <ul id="nav-links"
+                class="list-inline mx-auto text-white">
                 <li id="link" class="list-inline-item text-white"><a href="index.html">Home</a></li>
                 <li class="list-inline-item ml-3 text-white"><a href="portfolio.html">Portfolio</a></li>
                 <li class="list-inline-item ml-3 text-white"><a href="form.html">Contact</a></li>
             </ul>
         </div>
-    </div>
-    <div class="container">
-        <div id="form-main-content" class="container bg-dark mt-5">
-                    <h2 class="pt-3 mt-4 text-white">Contact</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="John Smith">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Email</label>
-                        <input type="password" class="form-control" placeholder="Password">
-                    </div>
-                    <div class="mb-5 pb-5 form-group">
-                        <label for="text">Message</label> 
-                        <input type="password" class="form-control input-lg" id="overrideHeight">
-
-                    </div>
-                    </form>    
-    </div>
-</div>
-
-    <footer id="footer" class="d-none d-sm-block footer fixed-bottom text-center py-3 mt-3 bg-dark">
+    </nav>
+    <div id="wrapper">
+        <div class="container form-main-content bg-light">
+            <h1 class="pt-3 mt-4">Contact</h1>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Email</label>
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="mb-5 pb-5 form-group">
+                    <label for="text">Message</label> 
+                    <input type="password" class="form-control input-lg" id="overrideHeight">
+                </div>
+            </form>    
+        </div>
+    <footer id="footer" class="d-none d-sm-block footer text-center">
         <div class="container ml-auto">
-        <span class="ml- auto text-muted">@Copyright</span>
+            <span class="ml- auto text-muted">@Copyright</span>
         </div>
     </footer>  
 </div>
