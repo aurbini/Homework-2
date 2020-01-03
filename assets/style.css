@@ -20,15 +20,15 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5
 }
+.banner-text {
+    font-size: 25px; 
+}
 a {
     text-decoration: none;
 }
 a:hover {
     text-decoration: none;
     padding-top: 10px;
-}
-.banner {
-    height: 25%; 
 }
 #nav-links {
     padding-top: 10px;
@@ -39,12 +39,12 @@ a:hover {
 #footer {
     background-color: #666666;
     position: absolute; 
-    bottom: 0px;
     padding-top: 30px; 
     width: 100%; 
 }
 .banner {
     height: 30%;
+    padding:35px; 
 }
 h1#nav-header {
     margin-bottom: 0px;
@@ -69,87 +69,4 @@ h1#nav-header {
     width: 100%; 
     padding-left: 0px;
     padding-right: 0px;
-}
-/*
-@media screen and (max-width: 640px) {
-    #footer {
-        display: none !important; 
-    }
-    .img-container {
-        height: 300px; 
-        padding: 20px; 
-    }
-    .banner {
-        width: 93% !important;
-        bottom: 50px !important; 
-    }
-    #image{
-        width: 99%;
-        height: auto; 
-    }
-    #image-container {
-        max-width: 600px;
-    }
-}
-@media screen and (min-width: 640px){
-    #nav-header { 
-        margin-left: 30px; 
-        margin-bottom: 0px;
-        width: auto;
-    }
-    #selfie {
-        width: 50%;
-    }
-    #nav-heading {
-        width: 200px;
-        margin-left: 30px;  
-    }
-    .container {
-        max-width: 600px !important; 
-        margin-left: 50px; 
-    }
-    .img-container {
-        height: 150px;
-        width: 300px; 
-    }
-    .banner {
-        width:93% !important; 
-    }
-    #image {
-        width: 40%; 
-        height: auto; 
-    }
-    #nav-links {
-        padding-top: 15px;
-    }
-}
-@media screen and (min-width: 770px){
-    #nav-header {
-        max-width: 220px; 
-    }
-}
-
-@media screen and (min-width: 979px){
-    #nav-header { 
-        margin-left: 60px;
-    }
-    #index-container {
-        margin-left: 50px;
-    }
-    #nav-heading {
-        width: 200px;
-        margin-left: 30px;  
-    }
-    .container {
-        max-width: 600px !important; 
-        margin-left: 50px; 
-        margin-bottom: 20px !important; 
-    }
-    .img-container {
-        height: 150px;
-        margin-bottom: 30px;  
-    }
-    .picture {
-        padding: 5px;
-    }
 }
