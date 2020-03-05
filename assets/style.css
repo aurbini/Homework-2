@@ -36,6 +36,9 @@ a:hover {
 #overrideHeight {
     height: 100px !important; 
 }
+.port-pic {
+    max-height: 300px; 
+}
 #footer {
     background-color: #666666;
     position: absolute; 
@@ -51,7 +54,7 @@ a:hover {
 }
 .banner {
     height: 30%;
-    padding:35px; 
+    padding:6%; 
 }
 h1#nav-header {
     margin-bottom: 0px;
