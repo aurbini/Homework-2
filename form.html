@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/formstyle.css">
 
     <title>Contact Page</title>
   </head>
@@ -30,21 +31,27 @@
     </nav>
     <div id="wrapper">
         <div class="container form-main-content bg-light">
-            <h1 class="pt-3 mt-4">Contact</h1>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Name</label>
-                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="John Smith">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Email</label>
-                    <input type="password" class="form-control" placeholder="Password">
-                </div>
-                <div class="mb-5 pb-5 form-group">
-                    <label for="text">Message</label> 
-                    <input type="password" class="form-control input-lg" id="overrideHeight">
-                </div>
-            </form>    
+            <form id="contact" action="" method="post">
+                <h3>Quick Contact</h3>
+                <fieldset>
+                  <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                  <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+              </form>  
         </div>
     <footer id="footer" class="d-none d-sm-block footer text-center">
         <div class="container ml-auto">

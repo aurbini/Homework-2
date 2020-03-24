@@ -1,16 +1,19 @@
-Project Title
+#Project Title
+
 Portfolio
 
 
+##Built With
 
-Built With
 HTML, CSS
 
 
-Authors
+##Authors
+
 Alex Urbini
 
-Acknowledgments
+##Acknowledgments
+
 Columbia Bootcamp staff and classmates
 
 
