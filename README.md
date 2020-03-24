@@ -1,19 +1,27 @@
-#Project Title
+# Project Title
 
-Portfolio
+Portfolio 
 
+## Getting Started
 
-##Built With
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-HTML, CSS
+### Prerequisites
 
+What things you need to install the software and how to install them
 
-##Authors
+## Technologies
 
-Alex Urbini
+CSS
+HTML
 
-##Acknowledgments
+## Authors
 
-Columbia Bootcamp staff and classmates
+* **Alex Urbini** - 
 
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
