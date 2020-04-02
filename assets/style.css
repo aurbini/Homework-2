@@ -21,7 +21,15 @@ h1 {
     color: #4aaaa5
 }
 .banner-text {
+    text-decoration: none;
+    color: white; 
     font-size: 25px; 
+}
+.banner-text-par {
+
+    text-decoration: none;
+    color: white; 
+    font-size: 15px; 
 }
 a {
     text-decoration: none;
@@ -36,9 +44,35 @@ a:hover {
 #overrideHeight {
     height: 100px !important; 
 }
+.card:hover .overlay {
+    opacity: 1; 
+}
 .port-pic {
     max-height: 300px; 
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 #footer {
     background-color: #666666;
     position: absolute; 
